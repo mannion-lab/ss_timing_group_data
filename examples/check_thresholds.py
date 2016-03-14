@@ -6,7 +6,8 @@ import numpy as np
 
 
 def main():
-    """Reading and checking the demographic information"""
+    """Example of how to read the fitted parameters, and checking that the
+    basic thresholds match the description in the paper."""
 
     # determine the path to the csv file
     eg_path = os.path.abspath(__file__)
